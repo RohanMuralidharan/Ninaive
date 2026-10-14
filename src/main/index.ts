@@ -12,7 +12,7 @@ function getWindow(): BrowserWindow | null {
 }
 
 app.whenReady().then(() => {
-  app.setAppUserModelId('com.lifeplanner.app')
+  app.setAppUserModelId('com.ninaive.app')
 
   registerIpcHandlers(getWindow)
 

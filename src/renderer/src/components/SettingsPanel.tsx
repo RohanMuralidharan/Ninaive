@@ -164,7 +164,7 @@ export function SettingsPanel({ onClose }: SettingsPanelProps) {
           className="w-full text-xs text-left px-3 py-2 rounded-lg hover:bg-white/10"
           style={{ color: 'var(--color-text-muted)' }}
         >
-          Quit LifePlanner
+          Quit Ninaive
         </button>
       </div>
     </div>

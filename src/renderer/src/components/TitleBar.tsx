@@ -6,7 +6,7 @@ export function TitleBar({ onOpenSettings }: TitleBarProps) {
   return (
     <div className="drag-region flex items-center justify-between px-4 py-3 shrink-0">
       <span className="font-semibold tracking-tight" style={{ color: 'var(--color-text)' }}>
-        LifePlanner
+        Ninaive
       </span>
       <div className="no-drag flex items-center gap-1">
         <button

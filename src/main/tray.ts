@@ -10,7 +10,7 @@ export function createTray(getWindow: () => BrowserWindow | null): Tray {
   const baseIcon = nativeImage.createFromPath(iconPath)
   const trayIcon = baseIcon.isEmpty() ? baseIcon : baseIcon.resize({ width: 22, height: 22 })
   const tray = new Tray(trayIcon)
-  tray.setToolTip('LifePlanner')
+  tray.setToolTip('Ninaive')
 
   const rebuildMenu = (): void => {
     const win = getWindow()
@@ -28,7 +28,7 @@ export function createTray(getWindow: () => BrowserWindow | null): Tray {
         },
         { type: 'separator' },
         {
-          label: 'Quit LifePlanner',
+          label: 'Quit Ninaive',
           click: () => {
             markQuitting()
             app.quit()

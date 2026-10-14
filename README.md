@@ -1,4 +1,4 @@
-# LifePlanner
+# Ninaive
 
 A modern, theme-able desktop To-Do widget for Windows and macOS. It floats above your other windows, lives in the tray, and shows your todos for the day.
 
